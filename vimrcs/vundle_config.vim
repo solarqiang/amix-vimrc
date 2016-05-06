@@ -26,6 +26,7 @@ Plugin 'amix/vim-zenroom2'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-obsession'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.

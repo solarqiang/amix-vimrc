@@ -305,6 +305,12 @@ endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
+" use ; for commands.
+nnoremap ; :
+
+" remap U to <C-r> for easier redo
+nnoremap U <C-r>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ag searching and cope displaying
