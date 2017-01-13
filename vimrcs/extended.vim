@@ -41,7 +41,7 @@ set guioptions-=L
     set background=light
 " else
 "     set background=dark
-endif
+" endif
 
 let g:solarized_termcolors = 256
 let g:solarized_termtrans  = 1
