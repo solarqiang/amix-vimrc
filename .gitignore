@@ -6,5 +6,6 @@ sources_non_forked/tlib/doc/tags
 my_configs.vim
 tags
 .DS_Store
-bundles/
+bundles/*
+
 !bundles/Vundle.vim
