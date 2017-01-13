@@ -35,11 +35,17 @@ set guioptions-=L
 
 " Colorscheme
     colorscheme solarized
-if has("gui_running")
+
+" Solarized Colorscheme setttings
+" if has("gui_running")
     set background=light
-else
-    set background=dark
+" else
+"     set background=dark
 endif
+
+let g:solarized_termcolors = 256
+let g:solarized_termtrans  = 1
+let g:solarized_contrast   = "high"
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
